@@ -1,9 +1,6 @@
-# flywheels
+# Flywheels
 
-<img src="https://img.shields.io/pypi/dm/flywheels" />
-<img src="https://img.shields.io/codecov/c/github/st3v3nmw/flywheels/main" />
-<img src="https://img.shields.io/pypi/v/flywheels" />
-<img src="https://img.shields.io/pypi/pyversions/flywheels" />
+<img src="https://img.shields.io/pypi/dm/flywheels" /> <a href="https://codecov.io/github/st3v3nmw/flywheels" ><img src="https://codecov.io/github/st3v3nmw/flywheels/graph/badge.svg?token=JRS9JQLDQ9"/></a> <img src="https://img.shields.io/pypi/v/flywheels" /> <img src="https://img.shields.io/pypi/pyversions/flywheels" />
 
 An async-first Python web framework
 
