@@ -17,10 +17,10 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: >
+        run: |
           curl -sSL https://install.python-poetry.org | python3 -
-          && poetry config virtualenvs.create false &&
-          && poetry install --no-root
+          poetry config virtualenvs.create false &&
+          poetry install --no-root
 
       - name: Publish to PyPI
         run: poetry publish --build
