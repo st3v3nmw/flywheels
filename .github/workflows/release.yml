@@ -27,6 +27,11 @@ jobs:
           poetry config virtualenvs.create false &&
           poetry install --no-root
 
+      - name: Deploy the documentation
+        run: mkdocs gh-deploy --force --clean --verbose
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Mint Trusted Publisher token
         id: mint
         uses: tschm/token-mint-action@v1.0.2
