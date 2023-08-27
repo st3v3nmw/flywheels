@@ -4,6 +4,9 @@ An async-first Python web framework
 
 Currently does nothing lol :(.
 
+[PyPI package](https://pypi.org/project/flywheels/)
+[Documentation](https://www.stephenmwangi.com/flywheels/)
+
 
 ## Roadmap
 
@@ -19,14 +22,14 @@ Currently does nothing lol :(.
     - [ ] Page-based pagination
     - [ ] Limit-offset pagination
 - [ ] Caching
-        - [ ] Memory
-        - [ ] Redis
-        - [ ] Co-ordinated cache filling
+    - [ ] Memory
+    - [ ] Redis
+    - [ ] Co-ordinated cache filling
 - [ ] HTTPs
 - [ ] Authentication
-        - [ ] Basic
-        - [ ] Bearer
-        - [ ] OAuth
+    - [ ] Basic
+    - [ ] Bearer
+    - [ ] OAuth
 - [ ] Middleware
 - [ ] Throttling
 - [ ] Templates
