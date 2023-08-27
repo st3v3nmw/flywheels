@@ -8,6 +8,11 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+
+    permissions:
+      id-token: write
+      contents: read
+
     steps:
       - uses: actions/checkout@v3
 
@@ -22,5 +27,9 @@ jobs:
           poetry config virtualenvs.create false &&
           poetry install --no-root
 
+      - name: Mint Trusted Publisher token
+        id: mint
+        uses: tschm/token-mint-action@v1.0.2
+
       - name: Publish to PyPI
-        run: poetry publish --build
+        run: poetry publish --build -u __token__ -p '${{ steps.mint.outputs.api-token }}'
