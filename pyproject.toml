@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "flywheels"
-version = "0.1.0"
+version = "0.1.1"
 description = "An async-first Python server-side web framework"
 authors = ["Stephen Mwangi <mail@stephenmwangi.com>"]
 license = "MIT"
