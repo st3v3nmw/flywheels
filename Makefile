@@ -1,11 +1,11 @@
-COMMIT_MESSAGE = $(github.event.head_commit.message)
+COMMIT_MESSAGE = $(GITHUB_COMMIT_MESSAGE)
 ifeq ($(shell printf '%s' '$(COMMIT_MESSAGE)' | wc -c),0)
 	COMMIT_MESSAGE = $(shell git log -1 --pretty=%B)
 endif
 
 .PHONY: lint
 lint:
-	# echo $(COMMIT_MESSAGE) > /tmp/.gitmessage
+	# echo "$(COMMIT_MESSAGE)" > /tmp/.gitmessage
 	# conventional-pre-commit /tmp/.gitmessage
 
 	ruff check .

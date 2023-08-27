@@ -1,10 +1,15 @@
 # flywheels
 
+<img src="https://img.shields.io/pypi/dm/flywheels" />
+<img src="https://img.shields.io/codecov/c/github/st3v3nmw/flywheels/main" />
+<img src="https://img.shields.io/pypi/v/flywheels" />
+<img src="https://img.shields.io/pypi/pyversions/flywheels" />
+
 An async-first Python web framework
 
 Currently does nothing lol :(.
 
-[PyPI package](https://pypi.org/project/flywheels/)
+[PyPI package](https://pypi.org/project/flywheels/) \
 [Documentation](https://www.stephenmwangi.com/flywheels/)
 
 
@@ -24,7 +29,7 @@ Currently does nothing lol :(.
 - [ ] Caching
     - [ ] Memory
     - [ ] Redis
-    - [ ] Co-ordinated cache filling
+    - [ ] Coordinated cache filling
 - [ ] HTTPs
 - [ ] Authentication
     - [ ] Basic
