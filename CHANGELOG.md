@@ -8,3 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 <!-- insertion marker -->
 ## [0.1.0] - 2023-08-27
 
+### Chore
+
+- Fix dependency installation in dependencies workflow
+- Scaffold Project (#1)
+
