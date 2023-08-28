@@ -26,7 +26,8 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.11"
-pydantic = "^2.3.0"
+orjson = "^3.9.5"
+uvicorn = "^0.23.2"
 
 [tool.poetry.group.test.dependencies]
 ruff = "^0.0.286"

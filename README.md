@@ -15,6 +15,8 @@ Currently does nothing lol :(.
 - [ ] API Routing
 - [ ] Basic Async Views
 - [ ] ORM
+    - [ ] Models
+    - [ ] Migrations
     - [ ] Postgres
 - [ ] Model Viewsets
 - [ ] Serialization
@@ -24,9 +26,8 @@ Currently does nothing lol :(.
     - [ ] Page-based pagination
     - [ ] Limit-offset pagination
 - [ ] Caching
-    - [ ] Memory
+    - [ ] In-Memory Cache
     - [ ] Redis
-    - [ ] Coordinated cache filling
 - [ ] HTTPs
 - [ ] Authentication
     - [ ] Basic
@@ -34,4 +35,7 @@ Currently does nothing lol :(.
     - [ ] OAuth
 - [ ] Middleware
 - [ ] Throttling
+- [ ] MQ Backend
+- [ ] Tasks Backend
 - [ ] Templates
+- [ ] OpenAPI docs generation
