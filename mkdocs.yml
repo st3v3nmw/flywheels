@@ -15,6 +15,9 @@ theme:
     icon:
         repo: fontawesome/brands/github
     palette:
+        scheme: slate
+        primary: cyan
+        accent: deep purple
         - scheme: default
           toggle:
               icon: material/brightness-7
