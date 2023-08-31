@@ -10,6 +10,11 @@ lint:
 
 	ruff check .
 
+.PHONY: format
+format:
+	isort .
+	black .
+
 .PHONY: test
 test:
 	pytest --cov=flywheels tests/
